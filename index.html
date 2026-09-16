@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pluma, logiciel de traitement de texte moderne inspiré de Word." />
+  <title>Pluma — Traitement de texte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+      <span class="brand-icon">✒</span>
+      <span>Pluma</span>
+    </a>
+
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#fonctionnalites">Fonctionnalités</a>
+      <a href="#installation">Installation</a>
+      <a href="#apropos">À propos</a>
+    </nav>
+
+    <button class="download-small" data-download>
+      Télécharger
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-content">
+        <div class="badge">Version 1.0.0 • Windows 64 bits</div>
+        <h1>Écrivez simplement.<br><span>Travaillez avec Pluma.</span></h1>
+        <p class="hero-text">
+          Pluma est un logiciel de traitement de texte moderne inspiré des outils bureautiques classiques.
+          Créez, mettez en forme et exportez vos documents dans une interface claire et agréable.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-download>
+            <span class="btn-icon">⬇</span>
+            Télécharger Pluma
+          </button>
+          <a class="btn btn-secondary" href="#fonctionnalites">Découvrir Pluma</a>
+        </div>
+
+        <div class="download-meta">
+          <span>✓ Windows 10 / 11</span>
+          <span>✓ 64 bits</span>
+          <span>✓ Installation simple</span>
+        </div>
+      </div>
+
+      <div class="app-preview" aria-label="Aperçu de Pluma">
+        <div class="window-bar">
+          <div class="window-dots"><span></span><span></span><span></span></div>
+          <strong>Pluma</strong>
+          <div></div>
+        </div>
+        <div class="ribbon-tabs">
+          <span class="active">Accueil</span>
+          <span>Insertion</span>
+          <span>Mise en page</span>
+        </div>
+        <div class="toolbar">
+          <div class="tool">↶</div>
+          <div class="tool">↷</div>
+          <div class="select-tool">Arial</div>
+          <div class="select-tool small">12</div>
+          <div class="tool bold">B</div>
+          <div class="tool italic">I</div>
+          <div class="tool underline">U</div>
+          <div class="tool">☰</div>
+          <div class="tool">▦</div>
+        </div>
+        <div class="editor-area">
+          <article class="page">
+            <div class="fake-title">Bienvenue dans Pluma</div>
+            <p>Commencez à écrire votre document ici.</p>
+            <p>Utilisez les outils de mise en forme pour créer des documents clairs et professionnels.</p>
+            <div class="fake-line long"></div>
+            <div class="fake-line medium"></div>
+            <div class="fake-line short"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fonctionnalites">
+      <div class="section-heading">
+        <span class="eyebrow">Fonctionnalités</span>
+        <h2>Tout le nécessaire pour vos documents</h2>
+        <p>Pluma rassemble les fonctions essentielles d’un traitement de texte dans une interface accessible.</p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">A</div>
+          <h3>Mise en forme complète</h3>
+          <p>Gras, italique, souligné, titres, tailles, polices, couleurs et alignements.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">▦</div>
+          <h3>Tableaux & images</h3>
+          <p>Insérez des tableaux, images et liens directement dans vos documents.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">↶</div>
+          <h3>Annuler & rétablir</h3>
+          <p>Travaillez sereinement avec l’historique des modifications et les raccourcis classiques.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">W</div>
+          <h3>Documents Word</h3>
+          <p>Importez et exportez des fichiers DOCX pour faciliter les échanges.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">PDF</div>
+          <h3>Export PDF</h3>
+          <p>Préparez facilement une version à imprimer ou à partager de votre document.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">⌨</div>
+          <h3>Raccourcis clavier</h3>
+          <p>Ctrl+S, Ctrl+O, Ctrl+N et autres raccourcis pour travailler rapidement.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="install-section" id="installation">
+      <div class="install-copy">
+        <span class="eyebrow">Installation</span>
+        <h2>Installer Pluma en quelques secondes</h2>
+        <p>Le téléchargement lance l’installateur Windows de Pluma. Une fois téléchargé, suivez simplement les étapes affichées à l’écran.</p>
+
+        <ol class="steps">
+          <li><span>1</span><div><strong>Téléchargez</strong><p>Cliquez sur le bouton pour récupérer l’installateur.</p></div></li>
+          <li><span>2</span><div><strong>Ouvrez le fichier</strong><p>Lancez <code>Pluma-1.0.0-x64.exe</code>.</p></div></li>
+          <li><span>3</span><div><strong>Installez Pluma</strong><p>Suivez l’assistant puis ouvrez Pluma depuis Windows.</p></div></li>
+        </ol>
+      </div>
+
+      <div class="download-card">
+        <div class="download-logo">✒</div>
+        <h3>Pluma pour Windows</h3>
+        <p>Version 1.0.0 • Windows x64</p>
+        <button class="btn btn-primary btn-full" data-download>⬇ Télécharger l’installateur</button>
+        <small>Le fichier sera téléchargé depuis GitHub Releases.</small>
+      </div>
+    </section>
+
+    <section class="about" id="apropos">
+      <div>
+        <span class="eyebrow">À propos</span>
+        <h2>Un traitement de texte simple et moderne</h2>
+      </div>
+      <p>
+        Pluma est un projet de logiciel bureautique conçu pour proposer une expérience de rédaction familière,
+        proche des traitements de texte traditionnels, tout en conservant une interface moderne.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#accueil"><span class="brand-icon">✒</span><span>Pluma</span></a>
+    <p>© <span id="year"></span> Pluma. Tous droits réservés.</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
